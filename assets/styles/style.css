@@ -176,7 +176,8 @@ footer .container-main .list-contact i:hover {
     padding: 10px 20px;
     border-radius: 24px;
     font-size: 15px;
-    background-color: whitesmoke;
+    color: white;
+    background-color: black;
 }
 
 .container-projects .container-main .container-box .description {
@@ -457,5 +458,11 @@ footer .container-main .list-contact i {
 
     .container-start .container-article .container-info .description {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container-projects .container-main .container-box .background {
+        height: 200px;
     }
 }
