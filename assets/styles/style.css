@@ -154,7 +154,7 @@ footer .container-main .list-contact i:hover {
     width: 100%;
     height: 300px;
     overflow: hidden;
-    border-radius: 18px;
+    border-radius: 6px;
 }
 
 .container-projects .container-main .container-box .background .banner {
@@ -208,7 +208,7 @@ footer .container-main .list-contact i:hover {
 
 .container-services .container-article .blank-blog {
     font-size: 18px;
-    border-radius: 12px;
+    border-radius: 6px;
     padding: 20px 40px;
     border: none;
     color: white;
@@ -251,18 +251,17 @@ footer .container-main .list-contact i:hover {
 
 .container-contacts {
     flex-direction: column;
-    align-items: flex-start;
     margin: 150px 0;
 }
 
 .container-contacts .container-main {
     flex-direction: column;
-    align-items: flex-start;
     gap: 15px;
 }
 
 .container-contacts .container-main .desc {
     font-size: 18px;
+    text-align: center;
 }
 
 .container-contacts .container-main .list-contact {
@@ -286,7 +285,7 @@ footer .container-main .list-contact i:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 6px;
 }
 
 .container-contacts .container-main .list-contact li .link .desc {
@@ -351,6 +350,10 @@ footer .container-main .list-contact i {
         margin: 100px 0;
     }
 
+    h1 {
+        font-size: 22px;
+    }
+
     .container-start {
         flex-direction: column-reverse;
         align-items: center;
@@ -374,11 +377,15 @@ footer .container-main .list-contact i {
     }
 
     .container-projects .container-main {
-        gap: 15px;
+        gap: 30px;
     }
 
     .container-projects .container-main .container-box .background {
         height: 200px;
+    }
+
+    .container-projects .container-main .container-box .title {
+        font-size: 20px;
     }
 }
 
@@ -401,6 +408,10 @@ footer .container-main .list-contact i {
     .container-projects .container-main .container-box .background {
         width: 100%;
         height: 250px;
+    }
+
+    .container-services .container-article .blank-blog {
+        padding: 15px 20px;
     }
 }
 
@@ -431,4 +442,10 @@ footer .container-main .list-contact i {
         height: auto;
     }
 
+}
+
+@media (max-width: 500px) {
+    .container-start .container-article .separator {
+        width: 100px;
+    }
 }
